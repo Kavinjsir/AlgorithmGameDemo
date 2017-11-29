@@ -49,7 +49,7 @@ public class AlgoVisualizer {
 
 		int sceneWidth = 800;
 		int sceneHeight = 800;
-		int N = 50000;
+		int N = 10000000;
 
 		AlgoVisualizer visualizer = new AlgoVisualizer(sceneWidth, sceneHeight, 10000);
 

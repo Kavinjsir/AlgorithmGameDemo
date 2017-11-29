@@ -30,17 +30,17 @@ public class AlgoVisualizer {
 
 		// TODO
 		while (true) {
-			Arrays.sort(money);
+			// Arrays.sort(money);
 			frame.render(money);
 			AlgoVisHelper.pause(DELAY);
 
 			for (int k = 0; k < 50; ++k) {
 				for (int i = 0; i < money.length; ++i) {
-					// if (money[i] > 0) {
-					int j = (int) (Math.random() * money.length);
-					money[i] -= 1;
-					money[j] += 1;
-					// }
+					if (money[i] > 0) {
+						int j = (int) (Math.random() * money.length);
+						money[i] -= 1;
+						money[j] += 1;
+					}
 				}
 			}
 		}

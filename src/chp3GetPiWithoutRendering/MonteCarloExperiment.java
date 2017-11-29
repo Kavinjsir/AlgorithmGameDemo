@@ -41,7 +41,7 @@ public class MonteCarloExperiment {
 
 	public static void main(String[] args) {
 		int squareSide = 800;
-		int N = 1000000;
+		int N = 200000000;
 
 		MonteCarloExperiment exp = new MonteCarloExperiment(squareSide, N);
 		exp.setOutputInternal(10000);

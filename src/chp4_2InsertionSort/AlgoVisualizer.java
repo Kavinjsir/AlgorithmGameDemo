@@ -54,6 +54,8 @@ public class AlgoVisualizer {
 
 		AlgoVisualizer visualizer = new AlgoVisualizer(sceneWidth, sceneHeight, N,
 				InsertionSortData.Type.NearlyOrdered);
+		
+		//AlgoVisualizer visualizer = new AlgoVisualizer(sceneWidth, sceneHeight, N);
 
 	}
 }

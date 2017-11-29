@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class AlgoVisualizer {
 
-	private static int DELAY = 20;
+	private static int DELAY = 60;
 	private MergeSortData data;
 	private AlgoFrame frame;
 
@@ -27,14 +27,16 @@ public class AlgoVisualizer {
 		setData(-1, -1, -1);
 		int len = data.N();
 		// Top->Bottom:
-		// mergeSort(0, len - 1);
+		mergeSort(0, len - 1);
 
 		// Bottom->Top:
+		/*
 		for (int sz = 1; sz < len; sz *= 2) {
 			for (int i = 0; i < len - sz; i += sz + sz) {
 				merge(i, i + sz - 1, Math.min(i + sz + sz - 1, len - 1));
 			}
 		}
+		*/
 
 		setData(0, len - 1, len - 1);
 	}

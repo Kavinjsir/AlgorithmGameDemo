@@ -4,7 +4,7 @@ import java.awt.EventQueue;
 
 public class AlgoVisualizer {
 
-	private static int DELAY = 1;
+	private static int DELAY = 6;
 	private SelectionSortData data;
 	private AlgoFrame frame;
 
